@@ -1,0 +1,90 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0;
+    background: rgba(249, 228, 222, 0.49);
+}
+
+.showBestVotesButton,
+.showLastHourPostsButton {
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 196, 255, 0.4);
+    color: black;
+    border: 2px solid #008CBA;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.showBestVotesButton:hover,
+.showLastHourPostsButton:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.showBestVotes {
+    margin: 25px;
+}
+
+.main-header {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+}
+
+
+
+.selectContainer {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.tableContainer {
+    margin-top: 70px;
+    cursor: crosshair;
+}
+
+
+
+.select {
+    display: inline-block;
+    width: 270px;
+    background-color: rgba(0, 196, 255, 0.4);
+    color: fff;
+    margin: 5px;
+    padding: 18px;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid #008CBA;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.6);
+    -webkit-appearance: button;
+    outline: none;
+}
+
+.select:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.showBestVotes,
+.showLastHourPosts {
+    display: inline-block;
+}
+
+.plan_features {
+    text-align: center;
+    border: 5px solid orange;
+    padding: 10px;
+
+    margin: 10px;
+}
+
+.plan_features:hover {
+    background-color: #008CBA;
+    color: white;
+}
